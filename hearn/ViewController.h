@@ -7,7 +7,21 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "R9HTTPRequest.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UITextFieldDelegate, UIAlertViewDelegate>{
+    
+    IBOutlet UITextField *textField1;
+    IBOutlet UITextField *textField2;
+    IBOutlet UITextField *textField3;
+    IBOutlet UIButton *textField4;
+    
+    IBOutlet UIView *datebox;
+    IBOutlet UIDatePicker *date;
+}
+
+
+
+
 
 @end
